@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/TESTTASK/static/css/main.7acaea2f.css",
-    "main.js": "/TESTTASK/static/js/main.07d3183d.js",
+    "main.css": "/TESTTASK/static/css/main.959a24c9.css",
+    "main.js": "/TESTTASK/static/js/main.6ca5a43b.js",
+    "static/media/hero1024@2x.jpg": "/TESTTASK/static/media/hero1024@2x.9bfed28dea361978c0f8.jpg",
+    "static/media/hero2560@2x.jpg": "/TESTTASK/static/media/hero2560@2x.81b5fac668543e0fca2b.jpg",
+    "static/media/hero768@2x.jpg": "/TESTTASK/static/media/hero768@2x.81b5fac668543e0fca2b.jpg",
+    "static/media/hero360@2x.jpg": "/TESTTASK/static/media/hero360@2x.1c1c71e2eb45edda95cc.jpg",
+    "static/media/hero1024.jpg": "/TESTTASK/static/media/hero1024.2b96e77397bde68acc87.jpg",
+    "static/media/hero2560.jpg": "/TESTTASK/static/media/hero2560.eaf9d4df9ec99035d466.jpg",
+    "static/media/hero768.jpg": "/TESTTASK/static/media/hero768.eaf9d4df9ec99035d466.jpg",
+    "static/media/hero360.jpg": "/TESTTASK/static/media/hero360.688ffc5d4528cd1bc679.jpg",
+    "static/media/Logo.svg": "/TESTTASK/static/media/Logo.56bda82bd882001476c0cd3c0dd1e432.svg",
     "index.html": "/TESTTASK/index.html",
-    "main.7acaea2f.css.map": "/TESTTASK/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/TESTTASK/static/js/main.07d3183d.js.map"
+    "main.959a24c9.css.map": "/TESTTASK/static/css/main.959a24c9.css.map",
+    "main.6ca5a43b.js.map": "/TESTTASK/static/js/main.6ca5a43b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.959a24c9.css",
+    "static/js/main.6ca5a43b.js"
   ]
 }
