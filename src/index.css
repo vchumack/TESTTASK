@@ -1,15 +1,124 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+/* bring in normalize.css styles */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
 body {
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Nunito, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  background-color: #F8F8F8;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  border-color: transparent;
+  outline: transparent;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* 
+@media screen and (min-width: 2560px) {}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 768px) {}
+база max-width 360 
+
+export const Container=styled.div` 
+max-width: 360px;
+margin: 0px auto;
+padding: 0px 16px;
+
+@media screen and (min-width: 768px) {
+  width: 768px;
+  padding: 0px 32px;
+
+
+}
+
+@media screen and (min-width: 1024px) {
+  width: 1024px;
+}
+
+@media screen and (min-width: 2560px) {
+  width: 2560px;
+}
+
+кнопки - компонент button <button> {
+  children
+}
+
+</button>
+
+`;
+*/

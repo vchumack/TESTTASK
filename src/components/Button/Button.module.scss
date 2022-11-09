@@ -1,0 +1,38 @@
+@import '../App/vars';
+@import '../App/baseStyles';
+
+.button {
+   display: flex;
+   align-items: center;
+   min-height: 34px;
+
+   border-radius: 80px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.62;
+
+   background-color: $button-bgc-primary;
+   color: $text-primary-color;
+   transition: background-color $transition-duration $timing-function;
+
+   &:hover,
+   &:focus {
+      background-color: $button-bcg-hover;
+      border-color: transparent;
+   }
+
+   &[disabled] {
+      background-color: $button-bgc-disabled;
+      color: $text-secondary-color;
+      opacity: 0.87;
+      cursor: default;
+   }
+}
+
+
+
+// <Button disabled px= {
+//    29
+// }
+
+// >Sign up </Button>

@@ -1,0 +1,27 @@
+@import '../App/vars';
+@import '../App/baseStyles';
+
+.header {
+   min-height: 60px;
+   display: flex;
+   align-items: center;
+   background-color: $bgc-secondary;
+}
+
+.box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav {
+   display: flex;
+   gap: 10px;
+   margin-left: 14px;
+
+   @media screen and (max-width: 359px) {
+      flex-direction: column;
+      padding: 5px 0;
+   }
+
+}

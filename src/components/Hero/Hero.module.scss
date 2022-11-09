@@ -1,0 +1,115 @@
+@import '../App/vars';
+@import '../App/baseStyles';
+
+.hero {
+   min-height: 500px;
+   padding-top: 40px;
+   padding-bottom: 71px;
+
+   background-image: url(../../img/hero360.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+
+
+   @media (min-device-pixel-ratio: 2),
+   (-webkit-min-device-pixel-ratio: 2),
+   (min-resolution: 192dpi),
+   (min-resolution: 2dppx) {
+      background-image: url(../../img/hero360@2x.jpg);
+   }
+
+   @media screen and (max-width: 359px) {
+      background-size: cover;
+   }
+
+   @media screen and (min-width: 768px) {
+      padding-top: 89px;
+      padding-bottom: 88px;
+
+
+      background-image: url(../../img/hero768.jpg);
+
+
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+         background-image: url(../../img/hero768@2x.jpg);
+      }
+   }
+
+   @media screen and (min-width: 1024px) {
+      height: 650px;
+
+      padding-top: 164px;
+      padding-bottom: 163px;
+
+      background-image: url(../../img/hero1024.jpg);
+
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+         background-image: url(../../img/hero1024@2x.jpg);
+      }
+   }
+
+   @media screen and (min-width: 2560px) {
+      width: 1170px;
+
+      padding-top: 164px;
+      padding-bottom: 163px;
+
+      background-image: url(../../img/hero2560.jpg);
+
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+         background-image: url(../../img/hero2560@2x.jpg);
+      }
+   }
+}
+
+.textBox {
+   width: 328px;
+   margin-left: auto;
+   margin-right: auto;
+
+   @media screen and (max-width: 359px) {
+      width: auto;
+   }
+
+   @media screen and (min-width: 768px) {
+      width: 380px;
+   }
+
+}
+
+.title {
+   margin-bottom: 21px;
+
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 1;
+
+   color: $text-secondary-color;
+
+   text-align: center;
+}
+
+.text {
+   margin-bottom: 32px;
+
+   font-size: 16px;
+   line-height: 1.62;
+
+   color: $text-secondary-color;
+
+   text-align: center;
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+}
