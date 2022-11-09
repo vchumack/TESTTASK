@@ -7,8 +7,34 @@
 
 .title {
    text-align: center;
-
    font-weight: 400;
    font-size: 40px;
    line-height: 1;
+}
+
+.list {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin-top: 50px;
+
+   @media screen and (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 16px;
+
+   }
+
+   @media screen and (min-width: 1024px) {
+      gap: 29px;
+   }
+
+   @media screen and (min-width: 2560px) {}
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+
 }

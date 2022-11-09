@@ -1,0 +1,48 @@
+@import '../App/vars';
+@import '../App/baseStyles';
+
+.item {
+   width: 328px;
+   padding: 20px;
+   text-align: center;
+   background-color: $bgc-secondary;
+   border-radius: 10px;
+
+   @media screen and (min-width: 768px) {
+      width: 344px;
+
+   }
+
+   @media screen and (min-width: 1024px) {
+      width: 282px;
+   }
+
+   @media screen and (min-width: 2560px) {
+      width: 370px;
+   }
+}
+
+.img {
+   margin-right: auto;
+   margin-left: auto;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.name {
+   margin-top: 20px;
+
+   font-size: 16px;
+   line-height: 1.62;
+}
+
+.box {
+   margin-top: 20px;
+}
+
+.description {
+   font-size: 16px;
+   line-height: 1.62;
+}

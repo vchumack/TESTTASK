@@ -28,17 +28,19 @@ export const UsersList = () => {
 		<section className={style.section}>
 			<div className={style.container}>
 				<h2 className={style.title}>Working with GET request</h2>
-				<ul>
+				<ul className={style.list}>
 					{users.length > 0 &&
 						users.map(({ id, name, email, phone, position, photo }) => (
                      <UsersItem key={id} name={name} email={email} phone={phone} position={position} photo={ photo} />
 						))}
 				</ul>
-            {isVisibleShowMoreBtn &&
+            <div className={style.box}>
+               {isVisibleShowMoreBtn &&
                <Button px={18.5} onClick={() => setPage(prev => prev + 1)}>
 					Show more
 				</Button>
             }
+            </div>
 			</div>
 		</section>
 	);
