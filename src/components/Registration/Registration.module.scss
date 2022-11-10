@@ -1,0 +1,106 @@
+@import '../App/vars';
+@import '../App/baseStyles';
+
+.section {
+   margin-top: 140px;
+}
+
+.title {
+   text-align: center;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 1;
+}
+
+.form {
+   margin-top: 50px;
+
+   @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+}
+
+.fieldBox {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
+
+.labelPhone {
+   margin-top: 4px;
+   margin-left: 16px;
+
+   font-size: 12px;
+   line-height: 1.16;
+   color: $text-third-color;
+}
+
+.input {
+   width: 328px;
+   height: 54px;
+   padding: 14px 16px;
+
+   border: 1px solid $border-color;
+   color: $text-primary-color;
+   font-size: 16px;
+   line-height: 1.62;
+
+   @media screen and (min-width: 768px) {
+      width: 380px;
+   }
+
+}
+
+
+.input:focus,
+.input:active {
+   border-color: $border-color;
+   outline: none;
+}
+
+// .inputErr {
+//    border: 2px solid $error-color;
+//    border-radius: 4px;
+//    outline: none;
+// }
+
+// .errorBox {
+//    height: 40px;
+// }
+
+.errorText {
+   color: $error-color;
+}
+
+.radioBox {
+   margin-top: 25px;
+}
+
+.radioTitle {
+   font-size: 16px;
+   line-height: 1.62;
+}
+
+.radioList {
+   margin-top: 11px;
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+
+.radioInput {
+   margin-right: 12px;
+}
+
+.fileBox {
+   margin-top: 47px;
+
+}
+
+.btnBox {
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
